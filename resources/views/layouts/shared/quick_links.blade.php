@@ -1,7 +1,9 @@
-<div class="blog-tags col-xs-12">
-    <h3>Quick Links</h3>
+<div class="single-sidebar wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1200ms">
+    <div class="title">
+        <h3>Categories</h3>
+    </div>
 
-    <ul class="ul-tags">
+    <ul class="categories clearfix">
         <li>
             <a href="{{ route('home') }}">
                 Home
@@ -19,20 +21,6 @@
                 Director Message
             </a>
         </li>
-
-        <li>
-            <a href="{{ route('statement.index') }}">
-                Vision & Misstion
-            </a>
-        </li>
-
-
-        <li>
-            <a href="{{ route('process_chart.index') }}">
-                Process Chart
-            </a>
-        </li>
-
 
         <li>
             <a href="{{ route('organization.index') }}">
@@ -53,21 +41,10 @@
         </li>
 
         <li>
-            <a href="{{ route('country.index') }}">
-                Countries We Serve
-            </a>
-        </li>
-        <li>
             <a href="{{ route('recruitment_services.index') }}">
                 Recruitment Services
             </a>
         </li>
-        <li>
-            <a href="{{ route('milestones.index') }}">
-                Milestones
-            </a>
-        </li>
-
 
         <li>
             <a href="{{ route('cv.index') }}">
@@ -79,7 +56,6 @@
                 Employer Form
             </a>
         </li>
-
 
         <li>
             <a href="{{ route('news.index') }}">

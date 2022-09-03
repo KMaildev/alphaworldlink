@@ -1,20 +1,17 @@
 @extends('layouts.app')
 @section('title', 'Director Message')
 @section('content')
-    <header class="innner-page">
-        <div class="container">
-            <h1>
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                Director Message
-            </h1>
-        </div>
-    </header>
-
-    <section class="job-information-area">
-        <br><br>
+    <section class="job-information-area py-5"
+        style="background-image:url({{ asset('assets/images/pattern/consultant-box-bg.png') }})">
         <div class="container col-md-offset-2">
             <div class="job-information">
                 <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="sec-title text-center">
+                            <h3>Director Message</h3>
+                            <h2><span>Alpha World Link Co.,Ltd</span></h2>
+                        </div>
+                    </div>
                     <div class="col-lg-3">
                         <div class="who-we-are-img">
                             <img src="{{ asset('data/md.png') }}" alt="Image"
@@ -22,7 +19,7 @@
                             <center>
                                 <div class="blog-content" style="background-color: #6fd654; padding: 20px;">
                                     <span style="color: white">
-                                        U Hla Maung Win
+                                        Daw
                                     </span>
                                     <br>
                                     <span style="color: white">

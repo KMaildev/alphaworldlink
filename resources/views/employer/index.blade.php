@@ -1,25 +1,22 @@
 @extends('layouts.app')
 @section('title', 'Submit CV')
 @section('content')
-    <header class="innner-page">
-        <div class="container">
-            <h1>
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                Submit Your Application
-            </h1>
-        </div>
-    </header>
-
-    <section class="job-information-area ptb-100">
+    <section class="job-information-area ptb-100 py-5"
+        style="background-image: url({{ asset('assets/images/shape/shape-4.png') }})">
         <div class="container">
             <div class="job-information">
-                <h3 style="text-shadow: 1px 2px gray; color:black;">
-                    EMPLOYER FORM
-                </h3>
                 <form class="konnect-form" autocomplete="off" method="POST" action="{{ route('employer.store') }}"
                     id="create-form">
                     @csrf
                     <div class="row">
+                        <div class="col-xl-12">
+                            <div class="coaching-content-box">
+                                <div class="sec-title">
+                                    <h2>Submit Your Application</h2>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-md-12 mb-3">
                             <div class="form-group">
                                 <label for="nameInput" class="form-label text-black">Company Name</label>
@@ -238,7 +235,11 @@
 
                         <div class="col-lg-12">
                             <hr>
-                            <button type="submit" class="konnect-submit">Apply Now</button>
+                            <div class="button-box">
+                                <button class="btn-one" type="submit">
+                                    <span class="txt">Apply Now</span>
+                                </button>
+                            </div>
                         </div>
 
                     </div>

@@ -164,23 +164,36 @@
                                         </ul>
                                     </li>
 
+
+
                                     <li class="dropdown {{ request()->routeIs('country.index') ? 'active' : '' }}">
                                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
                                             Manpower Services
                                         </a>
 
                                         <ul>
-                                            <li>
+                                            @foreach ($countries as $countryie)
+                                                <li>
+                                                    <a href="{{ route('country.show', $countryie->id) }}"
+                                                        class="nav-link active">
+                                                        {{ $countryie->country ?? '' }}
+                                                    </a>
+                                                </li>
+                                            @endforeach
+
+                                            <li hidden>
                                                 <a href="{{ route('country.index') }}" class="nav-link active">
                                                     Countries We Serve
                                                 </a>
                                             </li>
+
                                             <li>
                                                 <a href="{{ route('recruitment_services.index') }}"
                                                     class="nav-link active">
                                                     Our Recruitment Services
                                                 </a>
                                             </li>
+
                                             <li hidden>
                                                 <a href="{{ route('milestones.index') }}" class="nav-link active">
                                                     Milestones

@@ -1,47 +1,45 @@
 @extends('layouts.app')
 @section('title', 'News')
 @section('content')
-
-    <header class="innner-page">
-        <div class="container">
-            <h1>
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                Blog / Detail
-            </h1>
-        </div>
-    </header>
-
-    <section class="konnect-news">
+    <section class="blog-area blog-single-area">
         <div class="container">
             <div class="row">
-                <!--Blog Content-->
-                <div class="blog-content col-sm-12 col-md-8 col-xs-12">
-                    <h2 class="blog-heading text-default">
-                        {{ $details->title_eng ?? '' }}
-                    </h2>
-                    <div class="social-share">
-                        Share
-                        <a href="https://twitter.com/intent/tweet?url={{ url()->current() }}">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ url()->current() }}">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <img src="{{ $details->photo }}" alt="" class="img-responsive img-fullwidth"
-                        style="width: 100%; height: 350px; background-size: center; object-fit: cover;">
-                    <div class="konnect-space"></div>
-                    <div class="post-content-text">
-                        <p>
-                            {{ $details->description_eng }}
-                        </p>
+
+                <div class="col-xl-8 col-lg-7">
+                    <div class="blog-post">
+                        <div class="single-blog-style1 style1instyle3">
+                            <div class="img-holder">
+                                <div class="">
+                                    <img src="{{ $details->photo }}" alt="" class="img-responsive img-fullwidth"
+                                        style="width: 100%; height: 350px; background-size: center; object-fit: cover;">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <ul class="meta-info">
+                                    <li>
+                                        <span class="flaticon-user thm-clr"></span>
+                                        <a href="#">By {{ $details->author ?? '' }}</a>
+                                    </li>
+                                </ul>
+                                <h3>{{ $details->title_eng ?? '' }}</h3>
+                                <div class="text">
+                                    <p>
+                                        {{ $details->description_eng }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="side-bar col-sm-12 col-md-4 col-xs-12">
-                    @include('news.recents_news')
-                    @include('layouts.shared.quick_links')
+                <!--Start sidebar Wrapper-->
+                <div class="col-xl-4 col-lg-5 col-md-9 col-sm-12">
+                    <div class="sidebar-wrapper">
+                        @include('news.recents_news')
+                        @include('layouts.shared.quick_links')
+                    </div>
                 </div>
+                <!--End Sidebar Wrapper-->
             </div>
         </div>
     </section>
