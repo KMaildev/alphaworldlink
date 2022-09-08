@@ -23,8 +23,8 @@
                                         <span class="flaticon-worldwide thm-clr"></span>
                                     </div>
                                     <div class="title">
-                                        <h3>Greenville Avenue</h3>
-                                        <p>California, TX 70240</p>
+                                        <h3>Office</h3>
+                                        <p>Yangon, Myanmar</p>
                                     </div>
                                 </li>
                                 <li>
@@ -42,13 +42,13 @@
                                     </div>
                                     <div class="title">
                                         <h3>
-                                            <a href="tel:123456789">
-                                                +1-345-5678-77
+                                            <a href="tel:09 44780 8430">
+                                                09 44780 8430
                                             </a>
                                         </h3>
                                         <p>
-                                            <a href="mailto:info@templatepath.com">
-                                                support@gmail.com
+                                            <a href="mailto:info@alphaworldlink.com">
+                                                info@alphaworldlink.com
                                             </a>
                                         </p>
                                     </div>
@@ -59,21 +59,38 @@
                     <div class="bottom clearfix">
                         <div class="left pull-left">
                             <ul class="header-menu">
-                                <li><a href="#">Help Desk<i class="fa fa-angle-double-right"
-                                            aria-hidden="true"></i></a></li>
-                                <li><a href="#">Get A Free Quote<i class="fa fa-angle-double-right"
-                                            aria-hidden="true"></i></a></li>
-                                <li><a href="#">Our Onlilne Shop<i class="fa fa-angle-double-right"
-                                            aria-hidden="true"></i></a></li>
-                                <li><a href="#">Apply Now<i class="fa fa-angle-double-right"
-                                            aria-hidden="true"></i></a></li>
+                                <li>
+                                    <a href="{{ route('about.index') }}">
+                                        About Us
+                                        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('contact.index') }}">
+                                        Contact Us
+                                        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('cv.index') }}">
+                                        Submit CV
+                                        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('employer.index') }}">
+                                        Employer Form
+                                        <i class="fa fa-angle-double-right" aria-hidden="true">
+                                        </i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="right pull-right">
                             <div class="header-social-link">
                                 <ul>
                                     <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -114,7 +131,8 @@
                         <nav class="main-menu style1 navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="{{ request()->routeIs('about.index') ? 'current' : '' }}">
+
+                                    <li class="{{ request()->routeIs('home') ? 'current' : '' }}">
                                         <a href="{{ route('home') }}">Home</a>
                                     </li>
 
@@ -131,11 +149,6 @@
                                                 </a>
                                             </li>
 
-                                            <li>
-                                                <a href="{{ route('director_message.index') }}" class="nav-link active">
-                                                    MD's Message
-                                                </a>
-                                            </li>
 
                                             <li hidden>
                                                 <a href="{{ route('statement.index') }}" class="nav-link active">
@@ -165,6 +178,12 @@
                                     </li>
 
 
+                                    <li>
+                                        <a href="{{ route('director_message.index') }}"
+                                            class="{{ request()->routeIs('about.index') ? 'current' : '' }}">
+                                            MD's Message
+                                        </a>
+                                    </li>
 
                                     <li class="dropdown {{ request()->routeIs('country.index') ? 'active' : '' }}">
                                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
@@ -257,12 +276,6 @@
     <div class="sticky-header">
         <div class="container">
             <div class="clearfix">
-                <!--Logo-->
-                <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img
-                            src="{{ asset('assets/images/resources/sticky-logo.png') }}" alt=""
-                            title=""></a>
-                </div>
                 <!--Right Col-->
                 <div class="right-col float-right">
                     <!-- Main Menu -->
@@ -278,14 +291,10 @@
     <!-- Mobile Menu  -->
     <div class="mobile-menu">
         <div class="menu-backdrop"></div>
-        <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-
+        <div class="close-btn">
+            <span class="icon flaticon-multiply"></span>
+        </div>
         <nav class="menu-box">
-            <div class="nav-logo">
-                <a href="index.html">
-                    <img src="{{ asset('assets/images/resources/logo.png') }}" alt="" title="">
-                </a>
-            </div>
             <div class="menu-outer">
             </div>
             <div class="social-links">

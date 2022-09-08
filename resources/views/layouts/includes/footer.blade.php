@@ -6,14 +6,9 @@
             <div class="col-xl-12">
                 <div class="subscribe-content-box">
                     <div class="subscribe-title">
-                        <h2>Latest Updates Wants</h2>
-                        <p>Subscribe now to stay connected. We respect your privacy.</p>
-                    </div>
-                    <div class="subscribe-box">
-                        <form class="subscribe-form black_ver" action="#">
-                            <input type="email" name="email" placeholder="Email Address......">
-                            <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                        </form>
+                        <h2>Keep in Touch</h2>
+                        <p>If you have any queries about recruitments, vacancies, or anything else, our team is ready to
+                            response all your queries. </p>
                     </div>
                 </div>
             </div>
@@ -22,77 +17,8 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <!--Start single footer widget-->
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
-                    <div class="single-footer-widget marbtm">
-                        <div class="our-company-info">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="{{ asset('assets/images/footer/footer-logo.png') }}"
-                                        alt="Awesome Footer Logo" title="Logo"></a>
-                            </div>
-                            <div class="text">
-                                <p>Migrate provides the simplest solution for processing your all types of visa.
-                                    Say good bye to end less hassles and confusions. There anyone who loves or
-                                    pursues not some great to have pleasure.</p>
-                            </div>
-                            <div class="footer-social-links">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
-                <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
-                    <div class="single-footer-widget martop10 marleftminus40 marbtm">
-                        <div class="title">
-                            <h3>Countries</h3>
-                        </div>
-                        <ul class="countries-links">
-                            <li><a href="#">Canada</a></li>
-                            <li><a href="#">United States</a></li>
-                            <li><a href="#">United Kingdom</a></li>
-                            <li><a href="#">Australia</a></li>
-                            <li><a href="#">New Zealand</a></li>
-                            <li><a href="#">Singapore</a></li>
-                            <li><a href="#">South Africa</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="single-footer-widget martop10 marlef20">
-                        <div class="title">
-                            <h3>Visas Types</h3>
-                        </div>
-                        <ul class="visa-type-links">
-                            <li><a href="#">Students Visa</a></li>
-                            <li><a href="#">Business Visa</a></li>
-                            <li><a href="#">Family Visa</a></li>
-                            <li><a href="#">Travel Visa</a></li>
-                            <li><a href="#">Work Visa</a></li>
-                            <li><a href="#">Visitor Visa</a></li>
-                            <li><a href="#">Migrate Visa</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
+
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
                     <div class="single-footer-widget pdtop martop10">
                         <div class="title">
                             <h3>Contact</h3>
@@ -104,8 +30,9 @@
                                         <span class="flaticon-worldwide thm-clr"></span>
                                     </div>
                                     <div class="text">
-                                        <h4>25BT, San Rojartar,</h4>
-                                        <p>New York, United States</p>
+                                        <h4>ADDRESS</h4>
+                                        <p>အမှတ်- ၉၉ (မြေညီ)၊ ၉၃လမ်း၊ ကန်တော်ကလေး မင်္ဂလာတောင်ညွန့်မြို့နယ်၊
+                                            ရန်ကုန်မြို့၊</p>
                                     </div>
                                 </li>
                                 <li>
@@ -114,23 +41,142 @@
                                     </div>
                                     <div class="text">
                                         <h4>Send Your Mail At</h4>
-                                        <p><a href="mailto:info@templatepath.com">example@Support.Com</a></p>
+                                        <p><a href="mailto:info@alphaworldlink.com">info@alphaworldlink.com</a></p>
                                     </div>
                                 </li>
+
+                                <li class="single">
+                                    <div class="icon">
+                                        <span class="flaticon-phone thm-clr"></span>
+                                    </div>
+                                    <div class="text">
+                                        <h4>Phone</h4>
+                                        <p>
+                                            <a href="tel:09 765 176 291">
+                                                09 765 176 291,
+                                            </a>
+                                            <a href="tel:09 44780 8430">
+                                                09 44780 8430
+                                            </a>
+                                        </p>
+                                    </div>
+                                </li>
+
                                 <li>
                                     <div class="icon">
                                         <span class="flaticon-countdown thm-clr"></span>
                                     </div>
                                     <div class="text">
                                         <h4>Working Hours</h4>
-                                        <p>Mon-Sat:9.30am To 7.00pm</p>
+                                        <p>Mon-Sat:9.00am To 5.00pm</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
+                    <div class="single-footer-widget martop10 marleftminus40 marbtm">
+                        <div class="title">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <ul class="countries-links">
+                            <li>
+                                <a href="{{ route('about.index') }}">
+                                    Company Profile
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('organization.index') }}">
+                                    Our Organization
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('team.index') }}">
+                                    Our Team
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('partners.index') }}">
+                                    Our Partners
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('director_message.index') }}"
+                                    class="{{ request()->routeIs('about.index') ? 'current' : '' }}">
+                                    MD's Message
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
                 <!--End single footer widget-->
+                <!--Start single footer widget-->
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="single-footer-widget martop10 marlef20">
+                        <div class="title">
+                            <h3>Manpower Services</h3>
+                        </div>
+                        <ul class="visa-type-links">
+                            @foreach ($countries as $countryie)
+                                <li>
+                                    <a href="{{ route('country.show', $countryie->id) }}">
+                                        {{ $countryie->country ?? '' }}
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <div class="single-footer-widget martop10 marlef20">
+                        <div class="title">
+                            <h3>Social Media</h3>
+                        </div>
+                        <div class="footer-social-links">
+
+                            <div id="fb-root"></div>
+                            <script async defer crossorigin="anonymous"
+                                src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=210045094312905&autoLogAppEvents=1"
+                                nonce="PosYNXjc"></script>
+
+                            <div class="fb-page"
+                                data-href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572"
+                                data-tabs="timeline" data-width="" data-height="200" data-small-header="false"
+                                data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote
+                                    cite="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572"
+                                    class="fb-xfbml-parse-ignore"><a
+                                        href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572"></a>
+                                </blockquote>
+                            </div>
+
+                            <br><br>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572"
+                                        target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -142,13 +188,16 @@
         <div class="container">
             <div class="outer-box">
                 <div class="copyright-text">
-                    <p><a href="#">Migrate</a> &copy; 2020 All Right Reserved</p>
+                    <p>
+                        Alpha World Link Co.,Ltd
+                        &copy; {{ now()->year }} All Right Reserved
+                    </p>
                 </div>
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Customer</a></li>
+                        <li><a href="{{ route('about.index') }}">About Us</a></li>
+                        <li><a href="{{ route('contact.index') }}">Contact Us</a></li>
+                        <li><a href="{{ route('cv.index') }}">CV</a></li>
                     </ul>
                 </div>
             </div>
@@ -188,6 +237,8 @@
 <script src="{{ asset('assets/js/jQuery.style.switcher.min.js') }}"></script>
 <!-- thm custom script -->
 <script src="{{ asset('assets/js/custom.js') }}"></script>
+<script type="text/javascript" src="{{ asset('vendor/jsvalidation/js/jsvalidation.js') }}"></script>
+
 <script type="text/javascript">
     $('img[data-enlargeable]').addClass('img-enlargeable').click(function() {
         var src = $(this).attr('src');
