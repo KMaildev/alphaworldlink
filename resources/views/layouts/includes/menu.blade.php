@@ -90,7 +90,8 @@
                             <div class="header-social-link">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572"
+                                            target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -137,7 +138,7 @@
                                     </li>
 
                                     <li class="dropdown {{ request()->routeIs('about.index') ? 'current' : '' }}">
-                                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="javascript:void(0)">
                                             About Us
                                         </a>
 
@@ -186,7 +187,7 @@
                                     </li>
 
                                     <li class="dropdown {{ request()->routeIs('country.index') ? 'active' : '' }}">
-                                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="javascript:void(0)">
                                             Manpower Services
                                         </a>
 
@@ -223,7 +224,7 @@
 
 
                                     <li class="dropdown {{ request()->routeIs('cv.index') ? 'active' : '' }}">
-                                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+                                        <a href="javascript:void(0)">
                                             Application
                                         </a>
 
@@ -252,7 +253,6 @@
                                             Our Activities
                                         </a>
                                     </li>
-
 
                                     <li class="{{ request()->routeIs('contact.index') ? 'active' : '' }}">
                                         <a href="{{ route('contact.index') }}">
@@ -299,7 +299,7 @@
             </div>
             <div class="social-links">
                 <ul class="clearfix">
-                    <li><a href="#"><span class="fab fa fa-facebook-square"></span></a></li>
+                    <li><a href="https://www.facebook.com/Alpha-World-Link-Overseas-Employment-Agency-1904429756535572" target="_blank"><span class="fab fa fa-facebook-square"></span></a></li>
                     <li><a href="#"><span class="fab fa fa-twitter-square"></span></a></li>
                     <li><a href="#"><span class="fab fa fa-pinterest-square"></span></a></li>
                     <li><a href="#"><span class="fab fa fa-google-plus-square"></span></a></li>
